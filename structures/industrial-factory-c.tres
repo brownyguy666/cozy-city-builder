@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/industrial/building-c.png" id="1_s7pi8"]
+[ext_resource type="PackedScene" path="res://models/industrial/building-c.glb" id="2_gf4g6"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_sy14l"]
+
+[resource]
+script = ExtResource("3_sy14l")
+display_name = "Pengolahan Industri C"
+category = "Industri"
+icon = ExtResource("1_s7pi8")
+model = ExtResource("2_gf4g6")
+price = 450

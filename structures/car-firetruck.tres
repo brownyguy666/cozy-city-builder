@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/cars/firetruck.png" id="1_y20li"]
+[ext_resource type="PackedScene" path="res://models/cars/firetruck.glb" id="2_pve4i"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_f2pqb"]
+
+[resource]
+script = ExtResource("3_f2pqb")
+display_name = "Mobil Damkar"
+category = "Kendaraan"
+icon = ExtResource("1_y20li")
+model = ExtResource("2_pve4i")
+price = 300

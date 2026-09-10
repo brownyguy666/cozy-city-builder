@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/suburban/building-type-f.png" id="1_tjclw"]
+[ext_resource type="PackedScene" path="res://models/suburban/building-type-f.glb" id="2_y35u5"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_pwmt6"]
+
+[resource]
+script = ExtResource("3_pwmt6")
+display_name = "Vila Tingkat F"
+category = "Perumahan"
+icon = ExtResource("1_tjclw")
+model = ExtResource("2_y35u5")
+price = 260

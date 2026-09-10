@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/roads/construction-barrier.png" id="1_0wxcg"]
+[ext_resource type="PackedScene" path="res://models/roads/construction-barrier.glb" id="2_wjqh5"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_ce4da"]
+
+[resource]
+script = ExtResource("3_ce4da")
+display_name = "Barikade Jalan"
+category = "Kendaraan"
+icon = ExtResource("1_0wxcg")
+model = ExtResource("2_wjqh5")
+price = 15

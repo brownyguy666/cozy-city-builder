@@ -1,9 +1,13 @@
-[gd_resource type="Resource" script_class="Structure" load_steps=3 format=3 uid="uid://dtal0tl2ee336"]
+[gd_resource type="Resource" script_class="Structure" format=3]
 
-[ext_resource type="PackedScene" uid="uid://h0vrvst3cumo" path="res://models/building-small-d.glb" id="1_164xq"]
-[ext_resource type="Script" uid="uid://b4i7dfy6u3e8w" path="res://scripts/structure.gd" id="2_8ewai"]
+[ext_resource type="Texture2D" path="res://sprites/icons/building-small-d.png" id="1_2u77k"]
+[ext_resource type="PackedScene" path="res://models/building-small-d.glb" id="1_164xq"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="2_8ewai"]
 
 [resource]
 script = ExtResource("2_8ewai")
+display_name = "Rumah Sudut Hijau"
+category = "Perumahan"
+icon = ExtResource("1_2u77k")
 model = ExtResource("1_164xq")
-price = 70
+price = 300

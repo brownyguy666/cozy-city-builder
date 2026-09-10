@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/cars/suv.png" id="1_xq8xs"]
+[ext_resource type="PackedScene" path="res://models/cars/suv.glb" id="2_bw6jm"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_7c31m"]
+
+[resource]
+script = ExtResource("3_7c31m")
+display_name = "Mobil SUV"
+category = "Kendaraan"
+icon = ExtResource("1_xq8xs")
+model = ExtResource("2_bw6jm")
+price = 160

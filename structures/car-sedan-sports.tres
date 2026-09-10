@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/cars/sedan-sports.png" id="1_1fwx0"]
+[ext_resource type="PackedScene" path="res://models/cars/sedan-sports.glb" id="2_1intj"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_rxdpv"]
+
+[resource]
+script = ExtResource("3_rxdpv")
+display_name = "Mobil Sport"
+category = "Kendaraan"
+icon = ExtResource("1_1fwx0")
+model = ExtResource("2_1intj")
+price = 200

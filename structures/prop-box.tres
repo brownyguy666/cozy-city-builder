@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/cars/box.png" id="1_rm2g8"]
+[ext_resource type="PackedScene" path="res://models/cars/box.glb" id="2_howa8"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_6bft4"]
+
+[resource]
+script = ExtResource("3_6bft4")
+display_name = "Kotak Kargo"
+category = "Kendaraan"
+icon = ExtResource("1_rm2g8")
+model = ExtResource("2_howa8")
+price = 25

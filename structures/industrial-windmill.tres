@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/industrial/windmill.png" id="1_flt3e"]
+[ext_resource type="PackedScene" path="res://models/industrial/windmill.glb" id="2_7y2op"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_sjk5r"]
+
+[resource]
+script = ExtResource("3_sjk5r")
+display_name = "Turbin Angin Bersih"
+category = "Industri"
+icon = ExtResource("1_flt3e")
+model = ExtResource("2_7y2op")
+price = 350

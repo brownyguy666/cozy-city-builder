@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/industrial/solar-panel-flat.png" id="1_0ydcy"]
+[ext_resource type="PackedScene" path="res://models/industrial/solar-panel-flat.glb" id="2_78wk4"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_eht0j"]
+
+[resource]
+script = ExtResource("3_eht0j")
+display_name = "Panel Surya Ramah Lingkungan"
+category = "Industri"
+icon = ExtResource("1_0ydcy")
+model = ExtResource("2_78wk4")
+price = 200

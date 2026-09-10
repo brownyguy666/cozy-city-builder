@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/industrial/water-tower.png" id="1_mjmxb"]
+[ext_resource type="PackedScene" path="res://models/industrial/water-tower.glb" id="2_y7n3p"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_6cd7h"]
+
+[resource]
+script = ExtResource("3_6cd7h")
+display_name = "Menara Air Kota"
+category = "Industri"
+icon = ExtResource("1_mjmxb")
+model = ExtResource("2_y7n3p")
+price = 250

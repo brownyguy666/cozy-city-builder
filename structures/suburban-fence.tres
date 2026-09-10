@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/suburban/fence.png" id="1_y1qui"]
+[ext_resource type="PackedScene" path="res://models/suburban/fence.glb" id="2_xnplh"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_ma7jp"]
+
+[resource]
+script = ExtResource("3_ma7jp")
+display_name = "Pagar Kayu Putih"
+category = "Taman & Alam"
+icon = ExtResource("1_y1qui")
+model = ExtResource("2_xnplh")
+price = 15

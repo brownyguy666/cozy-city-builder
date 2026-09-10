@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/commercial/detail-parasol-a.png" id="1_v3lnv"]
+[ext_resource type="PackedScene" path="res://models/commercial/detail-parasol-a.glb" id="2_snys4"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_xpgye"]
+
+[resource]
+script = ExtResource("3_xpgye")
+display_name = "Payung Kafe Santai"
+category = "Taman & Alam"
+icon = ExtResource("1_v3lnv")
+model = ExtResource("2_snys4")
+price = 30

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/suburban/building-type-b.png" id="1_awpqd"]
+[ext_resource type="PackedScene" path="res://models/suburban/building-type-b.glb" id="2_ui2cl"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_n3yqt"]
+
+[resource]
+script = ExtResource("3_n3yqt")
+display_name = "Rumah Asri B"
+category = "Perumahan"
+icon = ExtResource("1_awpqd")
+model = ExtResource("2_ui2cl")
+price = 190

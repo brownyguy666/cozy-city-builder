@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/industrial/building-a.png" id="1_7i1pn"]
+[ext_resource type="PackedScene" path="res://models/industrial/building-a.glb" id="2_5t44k"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_wd25o"]
+
+[resource]
+script = ExtResource("3_wd25o")
+display_name = "Pabrik Manufaktur A"
+category = "Industri"
+icon = ExtResource("1_7i1pn")
+model = ExtResource("2_5t44k")
+price = 400

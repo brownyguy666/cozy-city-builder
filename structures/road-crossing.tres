@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/roads/road-crossing.png" id="1_cs5q1"]
+[ext_resource type="PackedScene" path="res://models/roads/road-crossing.glb" id="2_22hg2"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_vyojc"]
+
+[resource]
+script = ExtResource("3_vyojc")
+display_name = "Zebra Cross"
+category = "Jalan"
+icon = ExtResource("1_cs5q1")
+model = ExtResource("2_22hg2")
+price = 20

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/roads/traffic-light.png" id="1_p4vlg"]
+[ext_resource type="PackedScene" path="res://models/roads/traffic-light.glb" id="2_bgbs0"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_vqf62"]
+
+[resource]
+script = ExtResource("3_vqf62")
+display_name = "Lampu Lalu Lintas"
+category = "Kendaraan"
+icon = ExtResource("1_p4vlg")
+model = ExtResource("2_bgbs0")
+price = 40

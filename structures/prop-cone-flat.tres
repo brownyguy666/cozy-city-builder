@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/cars/cone-flat.png" id="1_ggkaw"]
+[ext_resource type="PackedScene" path="res://models/cars/cone-flat.glb" id="2_oga8f"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_h36cr"]
+
+[resource]
+script = ExtResource("3_h36cr")
+display_name = "Cone Pipih"
+category = "Kendaraan"
+icon = ExtResource("1_ggkaw")
+model = ExtResource("2_oga8f")
+price = 15

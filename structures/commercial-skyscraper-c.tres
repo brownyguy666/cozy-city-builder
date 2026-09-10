@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/commercial/building-skyscraper-c.png" id="1_i52an"]
+[ext_resource type="PackedScene" path="res://models/commercial/building-skyscraper-c.glb" id="2_3bew1"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_ip8dm"]
+
+[resource]
+script = ExtResource("3_ip8dm")
+display_name = "Gedung Korporasi C"
+category = "Komersial"
+icon = ExtResource("1_i52an")
+model = ExtResource("2_3bew1")
+price = 900

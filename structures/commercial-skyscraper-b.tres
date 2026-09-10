@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/commercial/building-skyscraper-b.png" id="1_ljj3v"]
+[ext_resource type="PackedScene" path="res://models/commercial/building-skyscraper-b.glb" id="2_t3aw8"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_aakvo"]
+
+[resource]
+script = ExtResource("3_aakvo")
+display_name = "Pencakar Langit B"
+category = "Komersial"
+icon = ExtResource("1_ljj3v")
+model = ExtResource("2_t3aw8")
+price = 750

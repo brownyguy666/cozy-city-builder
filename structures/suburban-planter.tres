@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/suburban/planter.png" id="1_6j818"]
+[ext_resource type="PackedScene" path="res://models/suburban/planter.glb" id="2_2kxj0"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_n3xi8"]
+
+[resource]
+script = ExtResource("3_n3xi8")
+display_name = "Pot Bunga Hias"
+category = "Taman & Alam"
+icon = ExtResource("1_6j818")
+model = ExtResource("2_2kxj0")
+price = 20

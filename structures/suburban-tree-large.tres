@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/suburban/tree-large.png" id="1_jwgpg"]
+[ext_resource type="PackedScene" path="res://models/suburban/tree-large.glb" id="2_f63pt"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_ct1hu"]
+
+[resource]
+script = ExtResource("3_ct1hu")
+display_name = "Pohon Rindang"
+category = "Taman & Alam"
+icon = ExtResource("1_jwgpg")
+model = ExtResource("2_f63pt")
+price = 35

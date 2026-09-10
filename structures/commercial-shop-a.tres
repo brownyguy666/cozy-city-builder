@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/commercial/building-a.png" id="1_p6sfi"]
+[ext_resource type="PackedScene" path="res://models/commercial/building-a.glb" id="2_8jdqa"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_xifv8"]
+
+[resource]
+script = ExtResource("3_xifv8")
+display_name = "Toko Swalayan A"
+category = "Komersial"
+icon = ExtResource("1_p6sfi")
+model = ExtResource("2_8jdqa")
+price = 280

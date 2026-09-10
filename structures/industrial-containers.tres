@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/industrial/shipping-container-a.png" id="1_qj4np"]
+[ext_resource type="PackedScene" path="res://models/industrial/shipping-container-a.glb" id="2_yx0iq"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_aarsk"]
+
+[resource]
+script = ExtResource("3_aarsk")
+display_name = "Kontainer Kargo"
+category = "Industri"
+icon = ExtResource("1_qj4np")
+model = ExtResource("2_yx0iq")
+price = 90

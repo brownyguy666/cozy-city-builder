@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/commercial/detail-awning-wide.png" id="1_350rb"]
+[ext_resource type="PackedScene" path="res://models/commercial/detail-awning-wide.glb" id="2_vm6d4"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_qg25d"]
+
+[resource]
+script = ExtResource("3_qg25d")
+display_name = "Kanopi Toko"
+category = "Taman & Alam"
+icon = ExtResource("1_350rb")
+model = ExtResource("2_vm6d4")
+price = 20

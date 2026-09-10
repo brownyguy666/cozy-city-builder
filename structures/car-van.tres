@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/cars/van.png" id="1_ld06c"]
+[ext_resource type="PackedScene" path="res://models/cars/van.glb" id="2_53og1"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_qqgnl"]
+
+[resource]
+script = ExtResource("3_qqgnl")
+display_name = "Mobil Van"
+category = "Kendaraan"
+icon = ExtResource("1_ld06c")
+model = ExtResource("2_53og1")
+price = 140

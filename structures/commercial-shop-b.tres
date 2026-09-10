@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/commercial/building-b.png" id="1_g5556"]
+[ext_resource type="PackedScene" path="res://models/commercial/building-b.glb" id="2_fjwug"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_qpn63"]
+
+[resource]
+script = ExtResource("3_qpn63")
+display_name = "Restoran & Kafe B"
+category = "Komersial"
+icon = ExtResource("1_g5556")
+model = ExtResource("2_fjwug")
+price = 320

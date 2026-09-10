@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Structure" format=3]
+
+[ext_resource type="Texture2D" path="res://sprites/roads/road-crossroad.png" id="1_plo45"]
+[ext_resource type="PackedScene" path="res://models/roads/road-crossroad.glb" id="2_sd8gb"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="3_cewyd"]
+
+[resource]
+script = ExtResource("3_cewyd")
+display_name = "Simpang Empat Garis"
+category = "Jalan"
+icon = ExtResource("1_plo45")
+model = ExtResource("2_sd8gb")
+price = 30

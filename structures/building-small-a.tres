@@ -1,9 +1,13 @@
-[gd_resource type="Resource" script_class="Structure" load_steps=3 format=3 uid="uid://cntgl86ianngh"]
+[gd_resource type="Resource" script_class="Structure" format=3]
 
-[ext_resource type="PackedScene" uid="uid://cnycdi6t5tj01" path="res://models/building-small-a.glb" id="1_v5apy"]
-[ext_resource type="Script" uid="uid://b4i7dfy6u3e8w" path="res://scripts/structure.gd" id="2_q3i1h"]
+[ext_resource type="Texture2D" path="res://sprites/icons/building-small-a.png" id="1_ivsi8"]
+[ext_resource type="PackedScene" path="res://models/building-small-a.glb" id="1_v5apy"]
+[ext_resource type="Script" path="res://scripts/structure.gd" id="2_q3i1h"]
 
 [resource]
 script = ExtResource("2_q3i1h")
+display_name = "Rumah Bata Merah"
+category = "Perumahan"
+icon = ExtResource("1_ivsi8")
 model = ExtResource("1_v5apy")
-price = 50
+price = 200
